@@ -1,0 +1,8 @@
+# INFO: prod
+
+services:
+  app:
+    build:
+      context: .
+      target: prod
+          

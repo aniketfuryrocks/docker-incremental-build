@@ -1,0 +1,6 @@
+# other services
+services:
+  db:
+    image: mongo
+    restart: always
+      

@@ -1,0 +1,9 @@
+# INFO: dev
+
+services:
+  app:
+    build:
+      context: .
+      target: dev
+    volumes:
+      - ./:/app
