@@ -1,5 +1,5 @@
 prod:
-	DOCKER_BUILDKIT=1 docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+	DOCKER_BUILDKIT=1 docker-compose -f docker-compose.yml -f docker-compose.prod.yml up
                                                                                         
 dev:                                                                                    
-	DOCKER_BUILDKIT=1 docker-compose -f docker-compose.yml -f docker-compose.prod.yml up
+	DOCKER_BUILDKIT=1 docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
